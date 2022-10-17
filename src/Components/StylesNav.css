@@ -1,0 +1,8 @@
+.navHolder ul 
+{
+background-color: black;
+
+}
+.navHolder ul li{
+    border-bottom:1px solid gray;
+}
