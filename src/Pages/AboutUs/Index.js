@@ -1,7 +1,7 @@
 import React from 'react'
 import SideNav from '../../Components/SideNAv'
 
-export default function Index() {
+export default function AboutUs() {
   return (
    <>
    <div class='row'>

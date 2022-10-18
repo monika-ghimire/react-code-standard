@@ -7,13 +7,13 @@ export default function SideNav() {
     <div className='navHolder'>
     <ul class="nav flex-column">
   <li class="nav-item">
-  <Link to='Home' > <a class="nav-link " aria-current="page" href="#">HOME</a></Link>
+  <Link class="nav-link " aria-current="page" to="/">HOME</Link>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Contact</a>
+    <Link class="nav-link" to="/contact">Contact</Link>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">About US</a>
+    <Link class="nav-link" to="/aboutUS">About US</Link>
   </li>
 </ul>
     

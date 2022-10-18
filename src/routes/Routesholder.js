@@ -1,29 +1,25 @@
 import React from 'react'
-import { routes } from "constants/routes";
+import { routes } from "../constants/routes";
 import Home from '../Pages/Home/Index'
 import Contact from '../Pages/Contact/Index'
 import AboutUs from '../Pages/AboutUs/Index'
-export default function Routes() {
+
     export const APP_ROUTES = [
         {
-          key: "/home",
+          key:"/",
           path: routes.homePage,
-          Element: Home,
+          Element:Home,
         },
         {
-            key: "/contact",
+            key:"/contact",
             path: routes.contactPage,
-            Element: Contact,
+            Element:Contact,
           },
           {
-            key: "/aboutUs",
+            key:"/aboutUs",
             path: routes.aboutUsPage,
-            Element: AboutUs,
+            Element:AboutUs,
           },
       
       ];
-    return(
-        <></>
-    )
-
-}
+ 

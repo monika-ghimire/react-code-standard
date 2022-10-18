@@ -1,25 +1,24 @@
 import React from 'react'
-import { BrowserRouter, Route} from "react-router-dom";
-import  Routes  from './Routes';
-
-
-import {APP_ROUTES } from "./routes";
+import { BrowserRouter, Route,Routes} from "react-router-dom";
+import  {APP_ROUTES } from "./Routesholder";
+import Home from '../Pages/Home/Index'
 
 export default function Routers() {
+ 
   return (
-   <>
+   
 <BrowserRouter>
         <Routes>
         {APP_ROUTES.map((x) => (
             <Route
-            //   key={x.key}
+           key={x.key}
               path={x.path}
               element={x.Element}
-           />
+           ></Route>
            ))}
          
         </Routes>
       </BrowserRouter>
-   </>
+   
   )
 }
