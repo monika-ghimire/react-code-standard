@@ -8,17 +8,17 @@ import AboutUs from '../Pages/AboutUs/Index'
         {
           key:"/",
           path: routes.homePage,
-          Element:Home,
+          Element:<Home/>,
         },
         {
             key:"/contact",
             path: routes.contactPage,
-            Element:Contact,
+            Element:<Contact/>,
           },
           {
             key:"/aboutUs",
             path: routes.aboutUsPage,
-            Element:AboutUs,
+            Element:<AboutUs/>,
           },
       
       ];
